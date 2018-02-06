@@ -1,9 +1,11 @@
 {
     "name": "vscode-caddyfile-syntax",
-    "displayName": "vscode-caddyfile-syntax",
-    "description": "Adds syntax highlighting for Caddyfiles.",
     "version": "1.0.0",
+    "displayName": "Caddyfile Syntax",
+    "description": "Adds syntax highlighting for Caddyfiles.",
     "publisher": "zamerick",
+    "repository":  "https://github.com/Zamerick/vscode-caddyfile-syntax",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.19.0"
     },
