@@ -1,10 +1,10 @@
 {
     "name": "vscode-caddyfile-syntax",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Caddyfile Syntax",
     "description": "Adds syntax highlighting for Caddyfiles.",
     "publisher": "zamerick",
-    "repository":  "https://github.com/Zamerick/vscode-caddyfile-syntax",
+    "repository": "https://github.com/Zamerick/vscode-caddyfile-syntax",
     "license": "MIT",
     "engines": {
         "vscode": "^1.19.0"
@@ -13,16 +13,25 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "caddyfile",
-            "aliases": ["Caddyfile", "caddyfile"],
-            "extensions": [""],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "caddyfile",
-            "scopeName": "source.Caddyfile",
-            "path": "./syntaxes/caddyfile.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "caddyfile",
+                "aliases": [
+                    "Caddyfile",
+                    "caddyfile"
+                ],
+                "extensions": [
+                    ""
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "caddyfile",
+                "scopeName": "source.Caddyfile",
+                "path": "./syntaxes/caddyfile.tmLanguage.json"
+            }
+        ]
     }
 }
