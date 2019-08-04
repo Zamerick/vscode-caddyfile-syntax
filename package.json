@@ -22,7 +22,10 @@
         ],
         "extensions": [
           "Caddyfile",
-          "caddyfile"
+          "caddyfile",
+          "*.caddyfile",
+          "*.Caddyfile"
+
         ],
         "configuration": "./language-configuration.json"
       }
