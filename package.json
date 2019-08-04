@@ -1,6 +1,6 @@
 {
   "name": "vscode-caddyfile-syntax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Caddyfile Syntax",
   "description": "Adds syntax highlighting for Caddyfiles.",
   "publisher": "zamerick",
@@ -25,7 +25,6 @@
           "caddyfile",
           "*.caddyfile",
           "*.Caddyfile"
-
         ],
         "configuration": "./language-configuration.json"
       }
